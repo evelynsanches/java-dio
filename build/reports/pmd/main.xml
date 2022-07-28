@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.15.0" timestamp="2021-05-20T00:13:18.375">
+<file name="C:\Users\evelyn.p.sanches\OneDrive - Accenture\Documentos\Curso Java\one.innovation.digital\src\main\java\usuario\Programa.java">
+<violation beginline="3" endline="18" begincolumn="23" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="usuario" class="Programa" externalInfoUrl="https://pmd.github.io/pmd-6.15.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="3" endline="18" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Documentation" package="usuario" class="Programa" externalInfoUrl="https://pmd.github.io/pmd-6.15.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Header comments are required
+</violation>
+<violation beginline="4" endline="4" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="usuario" class="Programa" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.15.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="4" endline="13" begincolumn="19" endcolumn="5" rule="CommentRequired" ruleset="Documentation" package="usuario" class="Programa" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.15.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Public method and constructor comments are required
+</violation>
+<violation beginline="11" endline="11" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="usuario" class="Programa" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.15.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+</file>
+<configerror rule="LoosePackageCoupling" msg="No packages or classes specified"/>
+</pmd>
